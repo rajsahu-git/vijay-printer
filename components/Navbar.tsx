@@ -3,7 +3,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { Menu, X, MessageCircle, Sparkles, Layers } from "lucide-react";
 
-const WA_NUMBER = "918128044246";
+const WA_NUMBER = "919530072011";
 const WA_MSG = encodeURIComponent("Hello! I'd like to get a quote from Vijay Printers.");
 
 export default function Navbar() {
