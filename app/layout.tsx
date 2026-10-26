@@ -15,7 +15,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Shree Prints & Cards | Premium Indian Wedding Invitations & Print Studio",
+  title: "Vijay printers | Premium Indian Wedding Invitations & Print Studio",
   description:
     "Luxury Shaadi Kankotri cards, gold foil stamping, velvet & acrylic boxes, premium business cards. Pan-India shipping. Get instant WhatsApp quote.",
   keywords: "wedding cards, kankotri, gold foil, business cards, printing, Surat, Gujarat",
