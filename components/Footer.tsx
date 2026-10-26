@@ -1,3 +1,4 @@
+import SVGComponent from "@/data/FooterLogo";
 import { Phone, MessageCircle, MapPin, Clock, Mail } from "lucide-react";
 
 const WA_NUMBER = "919530072011";
@@ -11,8 +12,8 @@ export default function Footer() {
         {/* Brand */}
         <div>
           <div className="flex items-center gap-2 text-2xl font-extrabold text-white mb-3">
-            <span>🪔</span>
-            <span>Shree Prints <span className="text-amber-400">&amp; Cards</span></span>
+            
+              <SVGComponent />
           </div>
           <p className="text-amber-200/70 text-sm leading-relaxed mb-5">
             Premium Indian print studio specializing in wedding invitations, luxury business cards, and custom packaging.

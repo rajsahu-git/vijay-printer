@@ -66,13 +66,13 @@ export default function Hero({ onQuoteClick }: HeroProps) {
             <BookOpen size={18} />
             Explore Sample Catalog
           </a>
-          <button
+          {/* <button
             onClick={onQuoteClick}
             className="flex items-center justify-center gap-2 border-2 border-amber-400 text-amber-300 hover:bg-amber-400/10 font-bold px-8 py-3.5 rounded-full transition-colors"
           >
             <Sparkles size={18} />
             Request Price Quote
-          </button>
+          </button> */}
         </div>
       </div>
     </section>

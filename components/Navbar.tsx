@@ -2,7 +2,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { Menu, X, MessageCircle, Sparkles, Layers } from "lucide-react";
-
+import SVGComponent from "./../data/Logo";
 const WA_NUMBER = "919530072011";
 const WA_MSG = encodeURIComponent("Hello! I'd like to get a quote from Vijay Printers.");
 
@@ -14,11 +14,13 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2.5 font-black text-xl text-slate-900 tracking-tight group">
-          <span className="text-2xl transform group-hover:rotate-12 transition-transform">🪔</span>
-          <span className="bg-gradient-to-r from-amber-600 to-amber-800 bg-clip-text text-transparent font-serif">
-            Vijay Printers
+          {/* <span className="text-2xl transform group-hover:rotate-12 transition-transform">🪔</span> */}
+          <span className="bg-gradient-to-r lg:mt-4 lg:-ml-12 from-amber-600 to-amber-800 bg-clip-text text-transparent font-serif">
+            <SVGComponent />
           </span>
+          
         </Link>
+
 
         {/* Desktop Nav */}
         <nav className="hidden lg:flex items-center gap-7 text-sm font-semibold text-slate-700">
