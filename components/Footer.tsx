@@ -35,7 +35,7 @@ export default function Footer() {
             <li className="flex items-start gap-3">
               <MapPin size={16} className="text-amber-400 mt-0.5 shrink-0" />
               <span>
-                Railway Station Rd, Amet, Rajasthan 313332,
+                Near by veer patta circle, Amet, Rajasthan 313332,
                 <a
                   href="https://maps.app.goo.gl/Zg7yXg8A4oHbM959A?g_st=ac"
                   target="_blank"
