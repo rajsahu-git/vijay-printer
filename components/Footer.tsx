@@ -12,7 +12,7 @@ export default function Footer() {
         {/* Brand */}
         <div>
           <div className="flex items-center gap-2 mb-4">
-            <Alpha3DLogo className="h-14 sm:h-16 w-auto" />
+            <Alpha3DLogo className="h-14 sm:h-36 w-auto" />
           </div>
           <p className="text-amber-200/70 text-sm leading-relaxed mb-5">
             Premium Indian print studio specializing in wedding invitations, luxury business cards, and custom packaging.
