@@ -15,15 +15,25 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Vijay printers | Premium Indian Wedding Invitations & Print Studio",
+  title: "Alpha 3D Advertisement | Premium Indian Wedding Invitations & Print Studio",
   description:
     "Luxury Shaadi Kankotri cards, gold foil stamping, velvet & acrylic boxes, premium business cards. Pan-India shipping. Get instant WhatsApp quote.",
-  keywords: "wedding cards, kankotri, gold foil, business cards, printing, Surat, Gujarat",
+  keywords: "wedding cards, kankotri, gold foil, business cards, printing, Surat, Gujarat, Alpha 3D Advertisement",
+  icons: {
+    icon: [
+      { url: "/logo.svg", type: "image/svg+xml" },
+    ],
+    shortcut: "/logo.svg",
+    apple: "/logo.svg",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${playfair.variable} ${inter.variable}`}>
+      <head>
+        <link rel="icon" href="/logo.svg" type="image/svg+xml" />
+      </head>
       <body className="min-h-full flex flex-col bg-amber-50 font-sans antialiased">{children}</body>
     </html>
   );

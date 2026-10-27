@@ -1,8 +1,8 @@
-import SVGComponent from "@/data/FooterLogo";
+import Alpha3DLogo from "@/components/Alpha3DLogo";
 import { Phone, MessageCircle, MapPin, Clock, Mail } from "lucide-react";
 
 const WA_NUMBER = "919530072011";
-const WA_MSG = encodeURIComponent("Hello! I'd like to build invitation from Vijay Prints & Cards.");
+const WA_MSG = encodeURIComponent("Hello! I'd like to get in touch with Alpha 3D Advertisement.");
 
 export default function Footer() {
   return (
@@ -11,9 +11,8 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-4 py-14 grid grid-cols-1 md:grid-cols-3 gap-10">
         {/* Brand */}
         <div>
-          <div className="flex items-center gap-2 text-2xl font-extrabold text-white mb-3">
-            
-              <SVGComponent />
+          <div className="flex items-center gap-2 mb-4">
+            <Alpha3DLogo className="h-14 sm:h-16 w-auto" />
           </div>
           <p className="text-amber-200/70 text-sm leading-relaxed mb-5">
             Premium Indian print studio specializing in wedding invitations, luxury business cards, and custom packaging.
@@ -101,7 +100,7 @@ export default function Footer() {
 
       {/* Bottom Bar */}
       <div className="border-t border-amber-900/50 px-4 py-4 text-center text-xs text-amber-200/50">
-        © {new Date().getFullYear()} Shree Prints &amp; Cards. All rights reserved. | Made with ❤️ in India
+        © {new Date().getFullYear()} Alpha 3D Advertisement. All rights reserved. | Made with ❤️ in India
       </div>
     </footer>
   );

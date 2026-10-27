@@ -5,7 +5,7 @@ const testimonials = [
     name: "Priya & Arjun Mehta",
     role: "Wedding Couple, Ahmedabad",
     review:
-      "Shree Prints made our Kankotri cards absolutely stunning! The gold foil work was flawless and delivered 5 days before our wedding. Highly recommended!",
+      "Alpha 3d advertisement made our Kankotri cards absolutely stunning! The gold foil work was flawless and delivered 5 days before our wedding. Highly recommended!",
     rating: 5,
     emoji: "👰",
   },

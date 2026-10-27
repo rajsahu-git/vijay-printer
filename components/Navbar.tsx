@@ -2,9 +2,9 @@
 import { useState } from "react";
 import Link from "next/link";
 import { Menu, X, MessageCircle, Sparkles, Layers } from "lucide-react";
-import SVGComponent from "./../data/Logo";
+import Alpha3DLogo from "@/components/Alpha3DLogo";
 const WA_NUMBER = "919530072011";
-const WA_MSG = encodeURIComponent("Hello! I'd like to get a quote from Vijay Printers.");
+const WA_MSG = encodeURIComponent("Hello! I'd like to get a quote from Alpha 3D Advertisement.");
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -13,12 +13,8 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200/80 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-2.5 font-black text-xl text-slate-900 tracking-tight group">
-          {/* <span className="text-2xl transform group-hover:rotate-12 transition-transform">🪔</span> */}
-          <span className="bg-gradient-to-r lg:mt-4 lg:-ml-12 from-amber-600 to-amber-800 bg-clip-text text-transparent font-serif">
-            <SVGComponent />
-          </span>
-          
+        <Link href="/" className="flex items-center gap-2 group transition-transform hover:scale-[1.02]">
+          <Alpha3DLogo className="h-10 sm:h-12 w-auto" />
         </Link>
 
 
