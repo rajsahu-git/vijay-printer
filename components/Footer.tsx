@@ -45,7 +45,7 @@ export default function Footer() {
               <span>
                 Near by veer patta circle, Amet, Rajasthan 313332,{" "}
                 <a
-                  href="https://maps.app.goo.gl/Zg7yXg8A4oHbM959A?g_st=ac"
+                  href="https://maps.app.goo.gl/QD7CdPkKKGETqyRZ7?g_st=awb"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-amber-600 hover:text-amber-700 hover:underline text-xs font-semibold mt-0.5 inline-block"
