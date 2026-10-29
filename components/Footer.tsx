@@ -61,7 +61,7 @@ export default function Footer() {
             <li className="flex items-center gap-3">
               <Mail size={16} className="text-amber-600 shrink-0" />
               <a href="mailto:info@shreeprintsandcards.in" className="hover:text-amber-600 transition-colors">
-                vijayprinters7@gmail.com
+                alpha3dadvertisers@gmail.com
               </a>
             </li>
           </ul>
