@@ -55,11 +55,10 @@ export default function Hero({ onQuoteClick }: HeroProps) {
         {/* Highlight Service Badges */}
         <div className="flex flex-wrap justify-center gap-2.5 sm:gap-3 mb-10 text-xs sm:text-sm">
           {[
-            "✦ Gold Foil Stamping",
-            "✦ Velvet & Acrylic Boxes",
-            "✦ 3D Signage & Displays",
-            "✦ Spot UV & Embossing",
-            "✦ Pan-India Shipping",
+            "✦ Printing",
+            "✦ Media",
+            "✦ Advertising solutions",
+            "✦ stationery",
           ].map((tag) => (
             <span
               key={tag}
